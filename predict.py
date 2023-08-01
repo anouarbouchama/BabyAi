@@ -8,7 +8,7 @@ import subprocess
 from utils import align_images_script, initialize_generator, encode_images_script, generate_final_image
 import numpy as np
 
-class AiChildGenerator():
+class Predictor():
     def __init__(self):
            # Step 1: Clone the repository and navigate to the project directory
         subprocess.run(["git", "clone", "https://github.com/tg-bomze/BabyGAN.git"])
