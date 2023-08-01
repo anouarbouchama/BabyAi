@@ -5,6 +5,7 @@ build:
     - "Cuda==9.0"
   python_packages:
     - "gdown"
+    - "nvidia-cudnn"
     - "h5py<3.0.0"
     - "Keras==2.3.1"
     - "dlib"
