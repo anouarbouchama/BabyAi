@@ -62,9 +62,9 @@ class Predictor():
         align_images_script(src_dir, aligned_images_dir)  
 
 
-        aligned_images_dir = "/content/BabyGAN/aligned_images"
-        generated_images_dir = "/content/BabyGAN/generated_images"
-        latent_representations_dir = "/content/BabyGAN/latent_representations"
+        aligned_images_dir = "BabyGAN/aligned_images"
+        generated_images_dir = "BabyGAN/generated_images"
+        latent_representations_dir = "BabyGAN/latent_representations"
         initialize_generator()
         encode_images_script(aligned_images_dir, generated_images_dir, latent_representations_dir)
 
