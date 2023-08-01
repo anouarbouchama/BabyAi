@@ -1,0 +1,11 @@
+build:
+  gpu: true
+  python_version: "3.6.12"
+  python_packages:
+    - "gdown"
+    - "h5py<3.0.0"
+    - "Keras==2.3.1"
+    - "dlib"
+    - "tensorflow-gpu==1.14.0"
+    - "Pillow==6.2.1"
+predict: "predict.py:Predictor"
